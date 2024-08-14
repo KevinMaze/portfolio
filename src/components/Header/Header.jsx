@@ -20,11 +20,11 @@ const Header = () => {
                             </Link>
                         </li>
 
-                        {/* <li className="nav__item">
-                            <Link to="/description" className="nav__link">
+                        <li className="nav__item">
+                            <Link to="/about" className="nav__link">
                                 <i className="uil uil-presentation nav__icon"></i>  Présentation 
                             </Link>
-                        </li> */}
+                        </li>
 
                         <li className="nav__item">
                             <Link to="/portfolio" className="nav__link">
@@ -32,11 +32,11 @@ const Header = () => {
                             </Link>
                         </li>
 
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <Link to="/skills" className="nav__link">
                                 <i className="uil uil-books nav__icon"></i> Compétences 
                             </Link>
-                        </li>
+                        </li> */}
 
                         <li className="nav__item">
                             <Link to="/services" className="nav__link">
