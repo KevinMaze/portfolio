@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './contact.css'
 import Header from '../Header/Header'
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+        .sendForm('service_j5ota6d', 'template_n0fh5yw', form.current, {
+            publicKey: 'cVxaD6990vdcczOcO',
+        })
+        .then(
+            () => {
+            console.log('SUCCESS!');
+            },
+            (error) => {
+            console.log('FAILED...', error.text);
+            },
+        );
+    };
     return (
         <div>
             <Header />
@@ -53,7 +72,7 @@ const Contact = () => {
                     <div className="contact__content">
                         <h3 className="contact__title">Whrite me your project</h3>
 
-                        <form className="contact__form">
+                        <form ref={form} onSubmit={sendEmail} className="contact__form">
                             <div className="contact__form-div">
                                 <label className="contact__form-tag">Name</label>
                                 <input 
