@@ -70,9 +70,9 @@ const Contact = () => {
                                 className="contact__form-input" placeholder='Insert your email'/>
                             </div>
 
-                            <div className="contact__form-div">
+                            <div className="contact__form-div contact__form-area">
                                 <label className="contact__form-tag">Projet</label>
-                                <textarea name='project' id='' cols="30" rows="10" className='contact__form-input area' placeholder='Writeyour project'/>
+                                <textarea name='project' id='' cols="30" rows="10" className='contact__form-input area' placeholder='Write your project'/>
                             </div>
 
                             <button className="button button__flex">Send message

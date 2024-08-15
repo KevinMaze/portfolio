@@ -98,13 +98,14 @@
     z-index: 10;
 }
 
-.area {
+.contact__form-area {
     height: 11rem;
 }
 
 textarea {
     resize: none;
 }
+
 
 
 /*********************************** MEDIA QUERY */
