@@ -13,25 +13,18 @@ const Contact = () => {
         .sendForm('service_j5ota6d', 'template_n0fh5yw', form.current, {
             publicKey: 'cVxaD6990vdcczOcO',
         })
-        .then(
-            () => {
-            console.log('SUCCESS!');
-            },
-            (error) => {
-            console.log('FAILED...', error.text);
-            },
-        );
+        e.target.reset();
     };
     return (
         <div>
             <Header />
             <section className="contact section" id="contact">
-                <h2 className="section__title">Get in touch</h2>
+                <h2 className="section__title">Garder le contact</h2>
                 <span className="section__subtitle">Contactez moi</span>
 
                 <div className="contact__container container grid">
                     <div className="contact__content">
-                        <h3 className="contact__title">Talk to me</h3>
+                        <h3 className="contact__title">Parlez moi</h3>
 
                         <div className="contact__info">
                             <div className="contact__card">
@@ -70,7 +63,7 @@ const Contact = () => {
                     </div>
 
                     <div className="contact__content">
-                        <h3 className="contact__title">Whrite me your project</h3>
+                        <h3 className="contact__title">Décrivez moi votre projet</h3>
 
                         <form ref={form} onSubmit={sendEmail} className="contact__form">
                             <div className="contact__form-div">

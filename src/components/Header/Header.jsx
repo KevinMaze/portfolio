@@ -32,12 +32,6 @@ const Header = () => {
                             </Link>
                         </li>
 
-                        {/* <li className="nav__item">
-                            <Link to="/skills" className="nav__link">
-                                <i className="uil uil-books nav__icon"></i> Compétences 
-                            </Link>
-                        </li> */}
-
                         <li className="nav__item">
                             <Link to="/services" className="nav__link">
                                 <i className="uil uil-desktop nav__icon"></i> Services 
