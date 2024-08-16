@@ -79,3 +79,34 @@
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+
+/*********************************** MEDIA QUERY */
+@media screen and (max-width: 992px){
+    .parcours__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .parcours__container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .parcours__section {
+        grid-template-columns: initial;
+    }
+
+    .parcours__button {
+        margin: 0 var(--mb-0-75);
+    }
+}
+
+@media screen and (max-width: 350px){
+    .parcours__data {
+        gap: 0.5rem;
+    }
+}
