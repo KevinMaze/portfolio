@@ -31,7 +31,7 @@ const Contact = () => {
                                 <i className="bx bx-mail-send contact__card-icon"></i>
 
                                 <h3 className="contact__card-title">Email</h3>
-                                <span className="contact__card-data">Exemple@gmail.com</span>
+                                {/* <span className="contact__card-data">Exemple@gmail.com</span> */}
 
                                 <a href="mailto:kevinmaze0889@gmail.com" className="contact__button">Ecrivez-moi
                                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -42,14 +42,14 @@ const Contact = () => {
                                 <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                                 <h3 className="contact__card-title">Téléphone</h3>
-                                <span className="contact__card-data">118218</span>
+                                {/* <span className="contact__card-data">118218</span> */}
 
-                                <a href="06" className="contact__button">Ecrivez-moi
+                                <a href="www.calendly.com/kevinmaze0889" className="contact__button" target='_blank'>Réservez votre appel
                                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>
 
-                            <div className="contact__card">
+                            {/* <div className="contact__card">
                                 <i className="bx bxl-messenger contact__card-icon"></i>
 
                                 <h3 className="contact__card-title">Messenger</h3>
@@ -58,7 +58,7 @@ const Contact = () => {
                                 <a href="Messenger" className="contact__button">Ecrivez-moi
                                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -67,11 +67,11 @@ const Contact = () => {
 
                         <form ref={form} onSubmit={sendEmail} className="contact__form">
                             <div className="contact__form-div">
-                                <label className="contact__form-tag">Name</label>
+                                <label className="contact__form-tag">Nom</label>
                                 <input 
                                 type="text" 
                                 name='name' 
-                                className="contact__form-input" placeholder='Insert your name'/>
+                                className="contact__form-input" placeholder='Votre nom'/>
                             </div>
 
                             <div className="contact__form-div">
@@ -79,15 +79,15 @@ const Contact = () => {
                                 <input 
                                 type="email" 
                                 name='email' 
-                                className="contact__form-input" placeholder='Insert your email'/>
+                                className="contact__form-input" placeholder='Votre Email'/>
                             </div>
 
                             <div className="contact__form-div contact__form-area">
                                 <label className="contact__form-tag">Projet</label>
-                                <textarea name='project' id='' cols="30" rows="10" className='contact__form-input area' placeholder='Write your project'/>
+                                <textarea name='project' id='' cols="30" rows="10" className='contact__form-input area' placeholder='Décrivez votre projet'/>
                             </div>
 
-                            <button className="button button__flex">Send message
+                            <button className="button button__flex">Envoyer message
                                 <svg
                                     class="button__icon"
                                     xmlns="http://www.w3.org/2000/svg"

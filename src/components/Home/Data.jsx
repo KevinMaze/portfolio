@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">Mazé Kévin
+            <h1 className="home__title">Kévin Mazé
             <svg
                 width="36"
                 height="36"
@@ -56,7 +56,11 @@ const Data = () => {
             </svg>
             </h1>
             <h3 className="home__subtitle">Développeur Web et Web mobile</h3>
-            <p className="home__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quam facilis accusamus modi consectetur, quia eum rem ipsum atque recusandae rerum voluptate ea beatae animi similique doloremque quisquam fugiat sed?</p>
+            <p className="home__description">Devenez le restaurant incontournable de votre région…<br/>
+            Améliorez votre image de marque et votre visibilité sur la toile. <br/>
+            Grâce à votre site web…
+            Sur-mesure.
+            </p>
 
             <Link to="/contact" className="button button__flex">Me Contacter
             <svg
