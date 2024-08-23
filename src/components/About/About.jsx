@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/moi.jpg'
 import CV from '../../assets/John-Cv.pdf'
-import Header from '../Header/Header'
 import Info from './Info'
 import Parcours from '../Parcours/Parcours'
 import Skills from './Skills'
@@ -11,7 +10,6 @@ import Skills from './Skills'
 const About = () => {
     return (
         <div>
-            <Header />
             <section className='about section' id='about'>
                 <h2 className="section__title"> Présentation </h2>
                 <span className="section__subtitle">Introduction</span>

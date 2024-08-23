@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css'
-import Header from '../Header/Header'
 
 const Contact = () => {
     const form = useRef();
@@ -17,7 +16,6 @@ const Contact = () => {
     };
     return (
         <div>
-            <Header />
             <section className="contact section" id="contact">
                 <h2 className="section__title">Garder le contact</h2>
                 <span className="section__subtitle">Contactez moi</span>
