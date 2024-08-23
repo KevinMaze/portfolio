@@ -51,7 +51,7 @@ const Parcours = () => {
                                 <h3 className="parcours__title">Baccalauréat Professionnel Hôtellerie Restauration</h3>
                                 <span className="parcours__subtitle">CFA Avon (77)</span>
                                 <div className="parcours__calender">
-                                    <i className="uil uilcalendar-alt"></i> 2007 - 2009
+                                    <i className="uil uil-calendar-alt"></i> 2007 - 2009
                                 </div>
                             </div>
                         </div>

@@ -25,6 +25,15 @@ const Info = () => {
                     <span className="about__subtitle">Symfony</span>
                 </div>
             </div>
+            <div className="about__box">
+                <h3 className="about__title">Compétences graphiques</h3>
+                <div className="about__info__span">
+                    <span className="about__subtitle">Photoshop</span>
+                    <span className="about__subtitle">Adobe XD</span>
+                    <span className="about__subtitle">Figma</span>
+                    <span className="about__subtitle">Première Pro</span>
+                </div>
+            </div>
         </div>
     )
 }
