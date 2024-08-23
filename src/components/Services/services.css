@@ -33,9 +33,9 @@
     cursor: pointer;
 }
 
-.sercvice__button-icon {
+.service__button-icon {
     font-size: 1rem;
-    transition: 2s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .service__button:hover .service__button-icon {
@@ -120,13 +120,13 @@
 /*********************************** MEDIA QUERY */
 @media screen and (max-width: 992px){
     .service__container{
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(2, 218px);
     }
 }
 
 @media screen and (max-width: 768px){
     .service__container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .service__content {

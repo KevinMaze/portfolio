@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
-import AboutImg from '../../assets/moi.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import AboutImg from '../../assets/moi3.jpg'
+// import CV from '../../assets/John-Cv.pdf'
 import Info from './Info'
 import Parcours from '../Parcours/Parcours'
 import Skills from './Skills'
@@ -18,7 +18,8 @@ const About = () => {
                     <img src={AboutImg} alt="" className="about__img" />
 
                     <div className="about__data">
-                        <p className="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, fugit est aspernatur explicabo corporis accusantium deleniti assumenda at necessitatibus aliquid alias dolore non voluptatibus excepturi libero unde, minima nulla molestias incidunt. Totam, assumenda quos. Eveniet ullam voluptate expedita culpa ipsa?</p>
+                        <p className="about__description">Dans un monde où le numérique prend de plus en plus de place, un site internet n'est pas négligeable. Visibilité, référencement, publicité, amélioration d'image, communication au plus près du client, un site internet est un formidable outil pour se faire connaitre. </p>
+                        <p className="about__description">Fort de mes 15 années d'expérience dans la restauration, une passion pour le monde numérique et un diplôme obtenu en développement Web, je souhaite apporter mon expertise afin de vous apporter de la visibilité et renforcer votre entreprise.</p>
 
                         <Skills />
 
