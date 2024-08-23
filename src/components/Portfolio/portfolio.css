@@ -37,5 +37,25 @@
 
 .portfolio__button:hover .portfolio__button__icon {
     transform: translateX(0.25rem);
-} 
+}
+
+.portfolio__parrot {
+    transition: 2s ease-in-out;
+}
+
+.portfolio__parrot:hover {
+    background-image: url("/src/assets/parrot.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio__popotte {
+    transition: 2s ease-in-out;
+}
+
+.portfolio__popotte:hover {
+    background-image: url("/src/assets/popotte.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
