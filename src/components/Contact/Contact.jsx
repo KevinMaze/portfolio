@@ -44,7 +44,7 @@ const Contact = () => {
                                 <h3 className="contact__card-title">Téléphone</h3>
                                 {/* <span className="contact__card-data">118218</span> */}
 
-                                <a href="www.calendly.com/kevinmaze0889" className="contact__button" target='_blank'>Réservez votre appel
+                                <a href="https://calendly.com/kevinmaze0889/30min" className="contact__button" target='_blank'>Réservez votre appel
                                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>

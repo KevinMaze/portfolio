@@ -4,7 +4,7 @@ const Info = () => {
     return (
         <div className='about__info grid'>
             <div className="about__box">
-                <h3 className="about__title">Languages</h3>
+                <h3 className="about__title">Langages</h3>
                 <div className="about__info__span">
                     <span className="about__subtitle">HTML / CSS</span>
                     <span className="about__subtitle">Javascript</span>
