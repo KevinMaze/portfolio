@@ -2,15 +2,14 @@ import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/moi.jpg'
 import CV from '../../assets/John-Cv.pdf'
-import Header from '../Header/Header'
 import Info from './Info'
 import Parcours from '../Parcours/Parcours'
+import Skills from './Skills'
 
 
 const About = () => {
     return (
         <div>
-            <Header />
             <section className='about section' id='about'>
                 <h2 className="section__title"> Présentation </h2>
                 <span className="section__subtitle">Introduction</span>
@@ -19,10 +18,11 @@ const About = () => {
                     <img src={AboutImg} alt="" className="about__img" />
 
                     <div className="about__data">
-                        <Info />
                         <p className="about__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, fugit est aspernatur explicabo corporis accusantium deleniti assumenda at necessitatibus aliquid alias dolore non voluptatibus excepturi libero unde, minima nulla molestias incidunt. Totam, assumenda quos. Eveniet ullam voluptate expedita culpa ipsa?</p>
 
-                        <a download="" href={CV} className="button button--flex">Télécharger le CV 
+                        <Skills />
+
+                        {/* <a download="" href={CV} className="button button--flex">Télécharger le CV 
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -48,12 +48,16 @@ const About = () => {
                             fill="var(--container-color)"
                             ></path>
                         </svg>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
 
             </section>
             <Parcours />
+            <div className='section__div__info'>
+                <div className='div__info container'><Info />
+                </div>
+            </div>
         </div>
     )
 }

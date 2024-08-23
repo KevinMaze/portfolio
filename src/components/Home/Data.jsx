@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Data = () => {
     return (
-        <div className="home__data">
+        <div className="home__data" data-aos="fade-right" data-aos-duration="1500">
             <h1 className="home__title">Kévin Mazé
             <svg
                 width="36"

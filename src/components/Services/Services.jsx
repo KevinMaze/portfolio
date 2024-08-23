@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Header from '../Header/Header'
 import './services.css'
 
 const Services = () => {
@@ -12,7 +11,6 @@ const Services = () => {
 
     return (
         <div>
-            <Header />
             <section className="service section" id="services">
                 <h2 className="section__title">Services</h2>
                 <span className="section__subtitle">What i offer</span>
