@@ -25,7 +25,7 @@ const Portfolio = () => {
                     <div className="portfolio__content portfolio__parrot">
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Garage Vincent Parrot</h3>
-                            <p className="portfolio__description">Projet réaliser dans le cadre de mon examen de développeur web et web mobile.</p>
+                            <p className="portfolio__description">Projet réalisé dans le cadre de mon examen de développeur web et web mobile.</p>
                             <a href="https://github.com/KevinMaze/Garage-ECF-2023" className="button button__flex portfolio__button" target='_blank'>
                                 Voir le code
                                 <i className="bx bx-right-arrow-alt button__icon portfolio__button portfolio__button__icon"></i>
