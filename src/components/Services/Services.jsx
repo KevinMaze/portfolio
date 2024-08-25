@@ -65,7 +65,7 @@ const Services = () => {
                             <div className="service__modal-content" onClick={() => toggleTab(0)}><i className="uil uil-times service__modal-close"></i>
                             
                             <h3 className="service__modal-title">Développement de votre site</h3>
-                            <p className="service__modal-description">Pour la création ou la mise a jour de votre site, je vous accompagne dans votre projet. Le développement de votre site web est réalisé avec soin.</p>
+                            <p className="service__modal-description">Pour la création ou la mise à jour de votre site, je vous accompagne dans votre projet. Le développement de votre site web est réalisé avec soin.</p>
 
                             <ul className="service__modal-services grid">
                                 <li className="service__modal-service">
@@ -105,7 +105,7 @@ const Services = () => {
                             <div className="service__modal-content" onClick={() => toggleTab(0)}><i className="uil uil-times service__modal-close"></i>
                             
                             <h3 className="service__modal-title">Référencement</h3>
-                            <p className="service__modal-description">Votre site est développé avec pour objectif, apparaitre dans les premières pages des moteurs de recherche. Analysons puis optimisons ensemble votre contenu.</p>
+                            <p className="service__modal-description">Votre site est développé avec pour objectif d'apparaitre dans les premières pages des moteurs de recherche. Analysons puis optimisons ensemble votre contenu.</p>
 
                             <ul className="service__modal-services grid">
                                 <li className="service__modal-service">
@@ -114,7 +114,7 @@ const Services = () => {
                                 </li>
                                 <li className="service__modal-service">
                                     <i className="uil uil-check-circle"></i>
-                                    <p className="service__modal-info">Temps de chargement des pages optimisés</p>
+                                    <p className="service__modal-info">Temps de chargement des pages optimisé</p>
                                 </li>
                                 <li className="service__modal-service">
                                     <i className="uil uil-check-circle"></i>
@@ -145,7 +145,7 @@ const Services = () => {
                             <div className="service__modal-content" onClick={() => toggleTab(0)}><i className="uil uil-times service__modal-close"></i>
                             
                             <h3 className="service__modal-title">Hébergement et maintenance</h3>
-                            <p className="service__modal-description">Votre site sera hébergé sur  un serveur robuste, puissant, supportant la montée en puissant de votre trafic. Mise à jour régulièrement, votre site restera en bonne santé.</p>
+                            <p className="service__modal-description">Votre site sera hébergé sur  un serveur robuste, puissant, supportant la montée en puissance de votre trafic. Mis à jour régulièrement, votre site restera en bonne santé.</p>
 
                             <ul className="service__modal-services grid">
                                 <li className="service__modal-service">
