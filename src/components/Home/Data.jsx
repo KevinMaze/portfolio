@@ -55,8 +55,8 @@ const Data = () => {
                 ></path>
             </svg>
             </h1>
-            <h3 className="home__subtitle">Développeur Web et Web mobile</h3>
-            <p className="home__description">Devenez le restaurant incontournable de votre région…<br/>
+            <h3 className="home__subtitle">Développeur Web</h3>
+            <p className="home__description">
             Améliorez votre image de marque et votre visibilité sur la toile. <br/>
             Grâce à votre site web…
             Sur-mesure.
