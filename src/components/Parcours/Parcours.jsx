@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './parcours.css'
-import Info from '../About/Info'
 
 const Parcours = () => {
     const [toggleState, setToggleState] = useState(1);

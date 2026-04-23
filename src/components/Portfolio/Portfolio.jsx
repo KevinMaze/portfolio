@@ -15,7 +15,7 @@ const Portfolio = () => {
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">La popotte de valou</h3>
                             <p className="portfolio__description">Site web réalisé pour le restaurant la popotte de valou situé sur Alès dans le gard(30)</p>
-                            <a href="https://github.com/KevinMaze/la_popote_de_valou" className="button button__flex portfolio__button" target='_blank'>
+                            <a href="https://github.com/KevinMaze/la_popote_de_valou" className="button button__flex portfolio__button" target='_blank' rel="noreferrer">
                                 Voir le code
                                 <i className="bx bx-right-arrow-alt button__icon portfolio__button portfolio__button__icon"></i>
                             </a>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                         <div className="portfolio__data">
                             <h3 className="portfolio__title">Garage Vincent Parrot</h3>
                             <p className="portfolio__description">Projet réalisé dans le cadre de mon examen de développeur web et web mobile.</p>
-                            <a href="https://github.com/KevinMaze/Garage-ECF-2023" className="button button__flex portfolio__button" target='_blank'>
+                            <a href="https://github.com/KevinMaze/Garage-ECF-2023" className="button button__flex portfolio__button" target='_blank' rel="noreferrer">
                                 Voir le code
                                 <i className="bx bx-right-arrow-alt button__icon portfolio__button portfolio__button__icon"></i>
                             </a>

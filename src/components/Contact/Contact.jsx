@@ -38,7 +38,7 @@ const Contact = () => {
                                 <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                                 <h3 className="contact__card-title">Téléphone</h3>
-                                <a href="https://calendly.com/kevinmaze0889/30min" className="contact__button" target='_blank'>Réservez votre appel
+                                <a href="https://calendly.com/kevinmaze0889/30min" className="contact__button" target='_blank' rel="noreferrer">Réservez votre appel
                                     <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                                 </a>
                             </div>
