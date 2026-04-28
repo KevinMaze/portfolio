@@ -15,12 +15,11 @@
     "react-scripts": "^0.0.0",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-}
-,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -40,6 +39,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "gh-pages": "^6.1.1",
+    "typescript": "^6.0.3"
   }
 }

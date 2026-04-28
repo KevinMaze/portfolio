@@ -1,0 +1,82 @@
+/* [project]/portfolio/components/About/about.css [client] (css) */
+.about__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.about__img {
+  border-radius: 1.5rem;
+  justify-self: center;
+  width: 300px;
+}
+
+.about__info {
+  margin-bottom: var(--mb-2);
+  gap: .5rem;
+}
+
+.about__info__span {
+  justify-content: space-around;
+  display: flex;
+}
+
+.about__box {
+  background-color: var(--container-color);
+  text-align: center;
+  border: 1px solid #0000001a;
+  border-radius: .75rem;
+  padding: 1rem 1.25rem;
+}
+
+.about__title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.about__subtitle {
+  font-size: var(--tiny-font-size);
+}
+
+.about__description {
+  margin-bottom: 1rem;
+  padding: 0 4rem 0 0;
+}
+
+.div__info {
+  max-width: 768px;
+}
+
+@media screen and (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__img {
+    width: 220px;
+  }
+
+  .about__box {
+    padding: .75rem .5rem;
+  }
+
+  .about__data {
+    text-align: center;
+  }
+
+  .about__description {
+    margin-bottom: 2rem;
+    padding: 0 5rem;
+  }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/*# sourceMappingURL=portfolio_components_About_about_css_0hklytk._.single.css.map*/
