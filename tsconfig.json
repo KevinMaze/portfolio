@@ -1,9 +1,9 @@
 {
-"compilerOptions": {
+  "compilerOptions": {
     "lib": [
-    "dom",
-    "dom.iterable",
-    "esnext"
+      "dom",
+      "dom.iterable",
+      "esnext"
     ],
     "allowJs": true, // Permet de mélanger JS et TS (utile pour une migration progressive)
     "skipLibCheck": true,
@@ -19,16 +19,17 @@
     "incremental": true,
     // "baseUrl": ".",
     "paths": {
-    "@/*": [
-        "src/*"
+      "@/*": [
+        "./"
       ] // Si tu utilises des alias comme @/components
-    }
-},
-"include": [
+    },
+    "target": "ES2017"
+  },
+  "include": [
     "**/*.ts",
     "**/*.tsx"
-],
-"exclude": [
+  ],
+  "exclude": [
     "node_modules"
-]
+  ]
 }
