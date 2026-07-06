@@ -10,6 +10,19 @@ const Portfolio = () => {
 
                 <div className="portfolio__container container grid">
 
+                    <div className="portfolio__content">
+                        <div className="portfolio__data">
+                            <h3 className="portfolio__title">L'Agora</h3>
+                            <p className="portfolio__description">This is a project that I made for my portfolio, it is a website that shows my skills and my most recent projects.</p>
+
+
+                            <a href="/" className="button button__flex portfolio__button" target='_blank' rel="noreferrer">
+                                Voir le code
+                                <i className="bx bx-right-arrow-alt button__icon portfolio__button portfolio__button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
 
                     <div className="portfolio__content portfolio__popotte">
                         <div className="portfolio__data">
